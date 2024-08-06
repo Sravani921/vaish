@@ -10,3 +10,32 @@ class Main {
     System.out.println(first + " + " + second + " = "  + sum);
   }
 }
+#feature301 worked by Vaishnavi on jan 2024
+public class AsciiValue {
+
+    public static void main(String[] args) {
+
+        char ch = 'a';
+        int ascii = ch;
+        // You can also cast char to int
+        int castAscii = (int) ch;
+
+        System.out.println("The ASCII value of " + ch + " is: " + ascii);
+        System.out.println("The ASCII value of " + ch + " is: " + castAscii);
+    }
+}
+
+#feature302 worked by vaishu on feb 2024
+public class QuotientRemainder {
+
+  public static void main(String[] args) {
+
+    int dividend = 25, divisor = 4;
+
+    int quotient = dividend / divisor;
+    int remainder = dividend % divisor;
+
+    System.out.println("Quotient = " + quotient);
+    System.out.println("Remainder = " + remainder);
+  }
+}
